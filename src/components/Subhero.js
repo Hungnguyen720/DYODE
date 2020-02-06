@@ -1,15 +1,13 @@
 import React from "react";
 
-class Newarrivals extends React.Component {
-    render(){
-        return(
-            <div>
-                <div className="newArrivals bg-red">
-
-                </div>
-            </div>
-        )
-    }
+class Subhero extends React.Component {
+  render() {
+    return (
+      <div>
+        <div className="Subhero bg-blue"></div>
+      </div>
+    );
+  }
 }
 
-export default Newarrivals
+export default Subhero;
