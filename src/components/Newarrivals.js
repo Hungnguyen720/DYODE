@@ -1,15 +1,24 @@
 import React from "react";
+import ImageCard from "./ImageCard";
 
-class Newarrivals extends React.Component {
-    render(){
-        return(
-            <div>
-                <div className="newArrivals bg-red">
+const Newarrivals = () => {
+  return (
+    <div>
+      <div className="newArrivals_header">
+        <h3>New Arrivals</h3>
+      </div>
+      <div className="newArrivals">
+        <div className="arrow">arrow</div>
+        <div className="newArrivals_image">
+          <ImageCard />
+        </div>
+        <div className="newArrivals_image">
+          <ImageCard />
+        </div>
+        <div className="arrow">arrow</div>
+      </div>
+    </div>
+  );
+};
 
-                </div>
-            </div>
-        )
-    }
-}
-
-export default Newarrivals
+export default Newarrivals;
