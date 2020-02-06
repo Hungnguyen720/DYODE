@@ -1,3 +1,7 @@
+:root {
+  --main-theme-color: #0f4f4f;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,60 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.p-f{
+  position: fixed;
+}
+
+.banner{
+  width: 100%;
+  background-color: black;
+  height: 25px;
+}
+
+.nav-bar{
+  width: 100%;
+  background-color: var(--main-theme-color);
+  height: 100px;
+}
+
+.hero{
+  min-height: 60vh;
+  width: 100%;
+}
+
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.product-category{
+  min-width: 50%;
+  height: auto;
+  min-height: 30vh;
+}
+
+.product-category-container{
+  height: auto;
+  display: flex;
+}
+
+.newArrivals{
+  width: 100%;
+  min-height: 60vh;
 }
 
 @keyframes App-logo-spin {
