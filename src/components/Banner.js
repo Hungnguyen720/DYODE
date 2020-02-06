@@ -3,8 +3,10 @@ import React from "react";
 class Banner extends React.Component {
   render() {
     return (
-      <div className="banner">
-        <span>FREE SHIPPING ON ALL ORDERS OVER $75</span>
+      <div>
+        <div className="banner vertical-text-center">
+          <span>FREE SHIPPING ON ALL ORDERS OVER $75</span>
+        </div>
       </div>
     );
   }

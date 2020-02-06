@@ -18,8 +18,10 @@ function App() {
       <Banner></Banner>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Categories></Categories>
-      <Newarrivals></Newarrivals>
+      <div class="container">
+        <Categories></Categories>
+        <Newarrivals></Newarrivals>
+      </div>
       <Subhero></Subhero>
       <Social></Social>
       <Signup></Signup>

@@ -5,15 +5,15 @@ class Signup extends React.Component {
     return (
       <div>
         <div className="signup">
-          <div className="signup_heading">
+          <div className="signup-heading">
             <h2>Sign up & stay connected</h2>
-            <span>
+            <p>
               Sign up for the newsletter and get 20% off! Get access to
               exclusive offers and be the first to know when new stuff drops.
-            </span>
+            </p>
           </div>
           <div>
-            <form id="contact_form">
+            <form id="contact-form">
               <input></input>
               <button>Subscribe</button>
             </form>
