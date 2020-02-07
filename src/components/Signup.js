@@ -5,18 +5,22 @@ class Signup extends React.Component {
     return (
       <div>
         <div className="signup">
-          <div className="signup-heading">
-            <h2>Sign up & stay connected</h2>
-            <p>
-              Sign up for the newsletter and get 20% off! Get access to
-              exclusive offers and be the first to know when new stuff drops.
-            </p>
-          </div>
-          <div>
-            <form id="contact-form">
-              <input></input>
-              <button>Subscribe</button>
-            </form>
+          <h2>Sign up & stay connected</h2>
+          <div className="signup-wrapper">
+            <div className="signup-heading">
+              <p>
+                Sign up for the newsletter and get 20% off! Get access to
+                exclusive offers and be the first to know when new stuff drops.
+              </p>
+            </div>
+            <div className="form-wrapper vertical-text-center">
+              <form id="contact-form">
+                <input placeholder="Your Email Address"></input>
+                <button className="shop-now-button bg-main-theme b-w-1">
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

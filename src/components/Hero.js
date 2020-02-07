@@ -3,7 +3,6 @@ import React from "react";
 class Hero extends React.Component {
   render() {
     return (
-      <div>
         <div className="hero-wrapper">
           <div className="hero">
             <img src="https://cdn.shopify.com/s/files/1/0193/6253/files/1600X1000_277d8ba4-863c-4445-b55c-f857162b1465_2000x.jpg?v=1576015212" alt="hero"/>
@@ -16,7 +15,6 @@ class Hero extends React.Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

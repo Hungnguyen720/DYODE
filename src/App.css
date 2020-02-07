@@ -61,10 +61,10 @@
 }
 
 .hero-text-wrapper {
-  height: 100%;
   position: absolute;
   width: 60%;
-  top: 0;
+  top: 50%;
+  left: 10%;
 }
 
 
@@ -94,11 +94,11 @@
 }
 
 .banner {
+  font-size: 12px;
   color: var(--main-text-color);
 }
 
 .hero-wrapper {
-  height: auto;
   max-width: 100vw;
   overflow: hidden;
   position: relative;
@@ -106,12 +106,7 @@
 }
 
 .hero {
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  max-height: 638px;
 }
 
 .hero img {
@@ -142,8 +137,14 @@
   font-size: 8px;
   margin: 4px 2px;
   cursor: pointer;
-  width:40%;
+  max-width: 77px;
   min-width: 77px;
+  width: auto;
+  height: 23px;
+}
+
+.b-w-1{
+  border: 3px solid white;
 }
 
 .bg-red {
@@ -170,8 +171,9 @@
 }
 
 .p-c-1 img {
-  height: 100%;
+  min-height: 215px;
   width: 100%;
+  height: 100%;
 }
 
 .p-c-3 {
@@ -183,14 +185,6 @@
 .p-c-3 img {
   width: 100%;
   height: 100%;;
-}
-
-.product-category-container {
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
 
 .newArrivals {
@@ -228,6 +222,7 @@
   height: 60vh;
   max-width: 100%;
 }
+
 
 .signup {
   background-color: var(--main-theme-color);
@@ -312,16 +307,29 @@
   height: 100%;
 }
 
-#contact_form {
+#contact-form {
+  display: flex;
   max-width: 100%;
 }
 
-#contact_form input {
-  width: 50%;
+.signup {
+  padding: 10px;
 }
 
-#contact_form button {
-  width: 15%;
+#contact-form input {
+  width: 255px;
+  height: 26px;
+  margin: 0px;
+}
+
+#contact-form button {
+  height: 32px;
+  width: 83px;
+  margin: 0px 0px 0px 1%;
+}
+
+.p-c-1{
+  display: inline-block;
 }
 
 .container {
@@ -333,11 +341,94 @@
   font-size: 20px;
 }
 
+.p-c-2 {
+  margin-left: 2%;
+}
+
 .signup-heading p {
   font-size: 10px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.email-subscribe-button{
+
+}
+
+.hamburger-text-wrapper{
+  position: absolute;
+  top: 25%;
+}
+
+.m-l-auto {
+  margin-left: auto;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.social-media-icons{
+  display: flex;
+  height: 36px;
+  width: 118px;
+}
+
+.social-media-icons img{
+  height: 100%;
+  width: auto;
+}
+
+.f-s-12{
+  font-size: 12px;
+}
+
+.inline-lists-wrapper{
+  display: none;
+}
+
+.inline-lists li a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: .4em;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: .4em;
+}
+
+ul{
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
+
+  .cart-container span {
+    display: none;
+  }
+
+  .nav-links li{
+    display: inline;
+  }
+
+  .inline-lists li a {
+    margin-left: 4%;
+  }
+
+
+  .inline-lists-wrapper{
+    display: inline-block;
+  }
+
+  .cart-1{
+    display: none;
+  }
   .banner {
     font-size: 26px;
     height: 59px;
@@ -351,8 +442,9 @@
     display: none;
   }
 
-  .hero-wrapper {
-    height: 638px;
+  .inline-lists li{
+    display: inline;
+    margin-left: 2%;
   }
 
   .shop-now-button {
@@ -361,12 +453,56 @@
     min-height: 49px;
     max-height: 49px;
     font-size: 20px;
+  }
 
+  .signup-wrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
   }
 
   .social-images-wrapper{
     display: inline-block !important;
     padding: 1%;
+    width: 20%;
+  }
+
+  #contact-form input {
+    width: 340px;
+    height: 44px;
+    margin: 0px;
+  }
+
+  .signup-heading {
+    width: 589px;
+  }
+
+  .signup-heading p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .p-c-1 {
+      width: 30%;
+  }
+
+  .p-c-3{
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+  }
+
+  .p-c-3 img{
+    height: auto;
+    min-height: 215px;
+  }
+
+  .inline-lists{
+    display: inline-block;
+  }
+
+  .product-category img {
   }
 
 }

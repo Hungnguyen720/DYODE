@@ -9,8 +9,8 @@ import Social from "./components/Social";
 import Signup from "./components/Signup";
 import Footer from "./components/Footer";
 
-import "./App.css";
 import "normalize.css";
+import "./App.css";
 
 function App() {
   return (
