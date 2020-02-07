@@ -16,7 +16,7 @@ class Signup extends React.Component {
             <div className="form-wrapper vertical-text-center">
               <form id="contact-form">
                 <input placeholder="Your Email Address"></input>
-                <button className="shop-now-button bg-main-theme b-w-1">
+                <button className="subscriber-button bg-main-theme b-w-1">
                   Subscribe
                 </button>
               </form>

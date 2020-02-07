@@ -1,6 +1,7 @@
 :root {
   --main-theme-color: #0f4f4f;
   --main-text-color: white;
+  --font-accent: "Pacifico", cursive;
 }
 
 h1,
@@ -10,6 +11,7 @@ h4,
 h5,
 h6 {
   font-family: "Pacifico", cursive;
+  font-weight: 300 !important;
 }
 
 body {
@@ -34,11 +36,11 @@ body {
 }
 
 .p-t-1 {
-  padding-top: 1%;
+  padding-top: 4%;
 }
 
 .p-b-1 {
-  padding-bottom: 1%;
+  padding-bottom: 8%;
 }
 
 .App {
@@ -79,6 +81,10 @@ body {
 
 .bg-main-theme {
   background-color: var(--main-theme-color) !important;
+}
+
+.social-header {
+  font-size: 20px;
 }
 
 .nav-bar {
@@ -182,7 +188,7 @@ body {
 }
 
 .b-w-1 {
-  border: 3px solid white;
+  border: 1px solid white;
 }
 
 .bg-red {
@@ -201,12 +207,19 @@ body {
   background-color: yellow;
 }
 
+.rectangle h1 {
+  margin: 0;
+  color: var(--main-text-color);
+  font-size: 19px;
+}
+
 .p-c-1 {
-  width: 49%;
+  width: 48%;
   height: auto;
   overflow: hidden;
   min-height: 215px;
   position: relative;
+  margin-bottom: 4%;
 }
 
 .p-c-1 img {
@@ -267,8 +280,9 @@ body {
 
 .signup {
   background-color: var(--main-theme-color);
-  padding-top: 10px;
+  padding: 10px;
   color: var(--main-text-color);
+  padding-bottom: 20px;
 }
 
 .has-flex {
@@ -294,6 +308,10 @@ body {
   flex-flow: column;
   align-items: flex-start;
   padding-left: 20px;
+}
+
+.footer_wrapper h1 {
+  font-size: 26px;
 }
 
 .social-images-wrapper {
@@ -357,10 +375,6 @@ body {
   max-width: 100%;
 }
 
-.signup {
-  padding: 10px;
-}
-
 #contact-form input {
   width: 255px;
   height: 26px;
@@ -368,8 +382,6 @@ body {
 }
 
 #contact-form button {
-  height: 32px;
-  width: 83px;
   margin: 0px 0px 0px 1%;
 }
 
@@ -387,7 +399,7 @@ body {
 }
 
 .p-c-2 {
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 .signup-heading p {
@@ -396,7 +408,9 @@ body {
   padding-right: 10px;
 }
 
-.email-subscribe-button {
+.subscriber-button {
+  font-family: var(--font-accent);
+  color: white;
 }
 
 .hamburger-text-wrapper {
@@ -452,6 +466,10 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  .b-w-1 {
+    border: 3px solid white;
+  }
+
   .cart-container span {
     display: none;
   }
@@ -503,6 +521,13 @@ ul {
     min-height: 49px;
     max-height: 49px;
     font-size: 20px;
+  }
+
+  .subscriber-button {
+    color: white;
+    font-size: 20px;
+    width: 169px;
+    height: 48px;
   }
 
   .signup-wrapper {
