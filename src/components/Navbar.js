@@ -28,7 +28,7 @@ class Navbar extends React.Component {
                   <a href="/#">Accessories</a>
                 </li>
                 <li>
-                  <a href="/#">Sale</a>
+                  <a href="/#">Sale!</a>
                 </li>
               </ul>
             </div>

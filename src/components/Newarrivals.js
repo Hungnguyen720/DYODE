@@ -15,6 +15,12 @@ const Newarrivals = () => {
         <div className="newArrivals_image">
           <ImageCard />
         </div>
+        <div className="newArrivals_image nai-dn">
+          <ImageCard />
+        </div>
+        <div className="newArrivals_image nai-dn">
+          <ImageCard />
+        </div>
         <div className="arrow">arrow</div>
       </div>
     </div>
