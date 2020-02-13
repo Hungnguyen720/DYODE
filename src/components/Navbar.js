@@ -34,7 +34,7 @@ class Navbar extends React.Component {
               </ul>
             </div>
             <div className="cart-container">
-              <span>asd</span>
+              <span>cart</span>
             </div>
           </div>
           </div>

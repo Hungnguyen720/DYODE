@@ -522,11 +522,6 @@ ul {
   line-height: 19px;
 }
 
-.logo-container{
-}
-
-.cart-container{
-}
 
 .nav-container{
   height: 100%;
@@ -538,6 +533,14 @@ ul {
 
 
 @media screen and (min-width: 768px) {
+
+  .newArrivals_header h3{
+    font-size: 35px;
+  }
+
+  .social-header{
+    font-size: 35px;
+  }
 
   .signup h2{
     font-size: 35px;
