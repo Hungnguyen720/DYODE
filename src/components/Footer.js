@@ -32,6 +32,7 @@ class Footer extends React.Component {
               </div>
             </div>
             <div className="social-media-icons-container">
+              <div className="social-media">
               <h1 className="follow-us">Follow Us</h1>
               <div className="social-media-icons">
                 <img
@@ -46,6 +47,7 @@ class Footer extends React.Component {
                   src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png"
                   alt="twitts"
                 />
+              </div>
               </div>
             </div>
           </div>

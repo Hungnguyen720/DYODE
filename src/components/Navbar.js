@@ -4,6 +4,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className="nav-bar">
+        <div className="nav-container">
         <div className="hamburger-text-wrapper">
           <div className="hamburger">
             <div className="line"></div>
@@ -11,11 +12,11 @@ class Navbar extends React.Component {
             <div className="line"></div>
           </div>
         </div>
-        <div class="nav-bar-row has-flex">
+        <div className="nav-bar-row has-flex">
           <div className="vertical-text-center w-100">
-            <div className="m-l-auto">
+            <div className="logo-container">
               <span>Logo</span>
-            </div>
+              </div>
             <div className="inline-lists-wrapper">
               <ul className="inline-lists">
                 <li>
@@ -32,9 +33,10 @@ class Navbar extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className="m-l-auto cart-container">
-              <span>cart</span>
+            <div className="cart-container">
+              <span>asd</span>
             </div>
+          </div>
           </div>
         </div>
       </nav>

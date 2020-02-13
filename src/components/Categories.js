@@ -6,7 +6,7 @@ class Categories extends React.Component {
       <div className="p-t-1 p-b-1">
         <div className="product-category p-c-1">
           <img
-            src="https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/images/women-category.png"
             alt="category 1"
           />
           <div className="rectangle vertical-text-center">
@@ -15,7 +15,7 @@ class Categories extends React.Component {
         </div>
         <div className="product-category p-c-1 p-c-2">
           <img
-            src="https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/images/men-category.png"
             alt="category 1"
           />
           <div className="rectangle vertical-text-center">
@@ -23,8 +23,12 @@ class Categories extends React.Component {
           </div>
         </div>
         <div className="product-category p-c-3">
-          <img
-            src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          <img id="p-c-3-m"
+            src="/images/accessory-category-mobile.png"
+            alt="category 2"
+          />
+          <img id="p-c-3-d"
+            src="/images/accessory-category-desktop.png"
             alt="category 2"
           />
           <div className="rectangle vertical-text-center">

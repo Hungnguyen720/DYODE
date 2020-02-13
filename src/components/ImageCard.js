@@ -5,12 +5,12 @@ const ImageCard = props => {
     <>
       <div className="ImageCardContainer">
         <img
-          src="https://shirtspacev4productimages.s3.amazonaws.com/uploads/variant/front_image/43668/large_C1717_00.jpg"
+          src="/images/new-arrivals.png"
           alt="card"
         />
         <div>Product Title</div>
-        <div>Women's T-shirt)</div>
-        <div>$19.99</div>
+        <div>Women's T-shirt</div>
+        <span>$19.99</span>
       </div>
     </>
   );

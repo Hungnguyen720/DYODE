@@ -10,7 +10,7 @@ class Signup extends React.Component {
             <div className="signup-heading">
               <p>
                 Sign up for the newsletter and get 20% off! Get access to
-                exclusive offers and be the first to know when new stuff drops.
+                exclusive offers and be the first to know when new stuff drops!
               </p>
             </div>
             <div className="form-wrapper vertical-text-center">
@@ -21,7 +21,7 @@ class Signup extends React.Component {
                 </button>
               </form>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     );

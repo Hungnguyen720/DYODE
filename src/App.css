@@ -40,7 +40,7 @@ body {
 }
 
 .p-b-1 {
-  padding-bottom: 8%;
+  padding-bottom: 2%;
 }
 
 .App {
@@ -85,6 +85,9 @@ body {
 
 .social-header {
   font-size: 20px;
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 1%;
 }
 
 .nav-bar {
@@ -125,10 +128,9 @@ body {
 
 .social-images-container {
   display: flex;
+  padding: 4%;
 }
 
-.social-images-wrapper {
-}
 
 .social-images-wrapper img {
   height: 100%;
@@ -141,20 +143,23 @@ body {
 }
 
 .hero-wrapper {
+  height: auto;
   max-width: 100vw;
   overflow: hidden;
   position: relative;
-  min-height: 227px;
 }
 
 .hero {
-  max-height: 638px;
+  overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
 .hero img {
   width: 100%;
-  height: 100%;
 }
+
 
 .overlay-hero {
   color: white;
@@ -195,6 +200,10 @@ body {
   background-color: red;
 }
 
+.hero-2-image-d{
+  display: none;
+}
+
 .bg-blue {
   background-color: blue;
 }
@@ -217,7 +226,6 @@ body {
   width: 48%;
   height: auto;
   overflow: hidden;
-  min-height: 215px;
   position: relative;
   display: inline-block;
   margin-bottom: 4%;
@@ -225,18 +233,17 @@ body {
 
 .p-c-1 img {
   width: 100%;
-  min-height: 215px;
   height: auto;
-  min-width: 165px;
+}
+
+#p-c-3-d {
+  display: none;
 }
 
 .p-c-3 {
   position: relative;
-  min-height: 209px;
-  min-width: 345px;
-  width: 100%;
-  height: auto;
 }
+
 
 .company-links {
   display: flex;
@@ -261,9 +268,12 @@ body {
 
 .newArrivals_header h3 {
   margin-bottom: 0px;
+  padding-top: 3%;
 }
 
-.arrow {
+.ImageCardContainer span {
+  font-family: var(--font-accent);
+  color:#10504F;
 }
 
 .newArrivals_image {
@@ -290,7 +300,13 @@ body {
   background-color: var(--main-theme-color);
   padding: 10px;
   color: var(--main-text-color);
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+.signup h2 {
+  font-size: 20px;
 }
 
 .has-flex {
@@ -315,16 +331,14 @@ body {
   display: flex;
   flex-flow: column;
   align-items: flex-start;
-  width: 40%;
 }
 
-.footer_wrapper h1 {
+.follow-us {
   font-size: 20px;
-  margin: 0px;
 }
 
 .social-images-wrapper {
-  padding: 2%;
+  padding: 1%;
 }
 
 .footer_cust-service {
@@ -381,17 +395,22 @@ body {
 
 #contact-form {
   display: flex;
-  max-width: 100%;
+  width: 100%;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #contact-form input {
-  width: 255px;
-  height: 26px;
+  width: 225px;
+  height: 27px;
   margin: 0px;
 }
 
 #contact-form button {
+  font-size: 10px;
   margin: 0px 0px 0px 1%;
+  width: 73px;
 }
 
 .container {
@@ -403,8 +422,13 @@ body {
   font-size: 20px;
 }
 
+.signup-heading {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .p-c-2 {
-  margin-left: 4%;
+  margin-left: 2%;
 }
 
 .signup-heading p {
@@ -467,6 +491,10 @@ h3 {
   margin-bottom: 0.4em;
 }
 
+.hero-desktop{
+  display: none;
+}
+
 ul {
   padding: 0;
 }
@@ -476,7 +504,8 @@ ul {
 }
 
 .footer_wrapper {
-  padding: 6%;
+  padding: 4%;
+
 }
 
 .customer-service-container span {
@@ -493,14 +522,42 @@ ul {
   line-height: 19px;
 }
 
+.logo-container{
+}
+
+.cart-container{
+}
+
+.nav-container{
+  height: 100%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 @media screen and (min-width: 768px) {
+
+  .signup h2{
+    font-size: 35px;
+  }
+
+  .hero-2-image-d{
+    display: block;
+  }
+
+  .hero-2-image-m{
+    display: none;
+  }
+
   .p-b-1 {
     display: flex;
     justify-content: center;
   }
 
   .follow-us {
-    margin-left: 76% !important;
+    margin-left: auto;
     width: 100px;
     margin-bottom: 2% !important;
   }
@@ -610,11 +667,16 @@ ul {
     height: 48px;
   }
 
+  .inline-lists li {
+    float: left;
+  }
+
   .signup-wrapper {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     max-width: 1250px;
+    justify-content: center;
   }
 
   .social-images-wrapper {
@@ -639,18 +701,17 @@ ul {
   }
 
   .p-c-1 {
-    width: 30%;
-    max-width: 435px;
+    width: 33%;
     height: 100%;
   }
 
   .p-c-3 {
     display: inline-block;
-    width: 30%;
+    width: 33%;
     margin-left: 2%;
-    min-width: 207px;
-    height: 99%;
-    max-width: 435px;
+    height: 100%;
+    position: relative;
+    min-height: 209px;
   }
 
   .p-c-3 img {
@@ -659,5 +720,62 @@ ul {
 
   .inline-lists {
     display: inline-block;
+    width: 420px;
+  }
+
+  #p-c-3-m {
+    display: none;
+  }
+
+  #p-c-3-d {
+    display: block;
+  }
+
+  .customer-service-container{
+    width: 20%;
+  }
+
+  .newArrivals {
+    padding-bottom: 2%;
+  }
+
+  .follow-us {
+    margin-left: 12%;
+    font-size: 18px;
+  }
+
+  .social-media{
+    margin-left: auto;
+    width: 100px;
+  }
+
+  .hero-desktop{
+    display: block;
+  }
+
+  .hero-mobile{
+    display: none;
+  }
+
+  .company-container{
+    margin-left: 1%;
+  }
+
+}
+
+  @media screen and (min-width: 980px){
+     .footer_wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
+
+  @media screen and (min-width: 1024){
+    .rectangle {
+      height: 110px;
+  }
+}
+

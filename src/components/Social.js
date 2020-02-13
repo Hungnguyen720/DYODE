@@ -9,31 +9,31 @@ class Social extends React.Component {
           <div className="social-images-container">
             <div className="social-images-wrapper">
               <img
-                src="https://i.pinimg.com/236x/3f/67/40/3f6740ed30cdfeddba4d129fa7e36717.jpg"
+                src="/images/social-1.png"
                 alt="instagram"
               ></img>
             </div>
             <div className="social-images-wrapper">
               <img
-                src="https://i.pinimg.com/236x/3f/67/40/3f6740ed30cdfeddba4d129fa7e36717.jpg"
+                src="/images/social-2.png"
                 alt="instagram"
               ></img>
             </div>
             <div className="social-images-wrapper">
               <img
-                src="https://i.pinimg.com/236x/3f/67/40/3f6740ed30cdfeddba4d129fa7e36717.jpg"
+                src="/images/social-3.png"
                 alt="instagram"
               ></img>
             </div>
             <div className="social-images-wrapper d-n">
               <img
-                src="https://i.pinimg.com/236x/3f/67/40/3f6740ed30cdfeddba4d129fa7e36717.jpg"
+                src="/images/social-4.png"
                 alt="instagram"
               ></img>
             </div>
             <div className="social-images-wrapper d-n">
               <img
-                src="https://i.pinimg.com/236x/3f/67/40/3f6740ed30cdfeddba4d129fa7e36717.jpg"
+                src="/images/social-5.png"
                 alt="instagram"
               ></img>
             </div>
