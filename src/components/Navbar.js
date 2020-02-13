@@ -12,8 +12,10 @@ class Navbar extends React.Component {
             <div className="line"></div>
           </div>
         </div>
-        <div className="nav-bar-row has-flex">
-          <div className="vertical-text-center w-100">
+        <div className="cart-container">
+              <img src="https://www.hmsmotorsport.com/img/cart-white.png" alt="shopping cart" height="11" width="11"></img>
+            </div>
+          <div className="vertical-text-center w-100 nav-container">
             <div className="logo-container">
               <span>Logo</span>
               </div>
@@ -33,10 +35,7 @@ class Navbar extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className="cart-container">
-              <span>cart</span>
-            </div>
-          </div>
+
           </div>
         </div>
       </nav>

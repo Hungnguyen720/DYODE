@@ -14,9 +14,23 @@ h6 {
   font-weight: 300 !important;
 }
 
+
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .rectangle {
@@ -90,8 +104,10 @@ body {
   padding-bottom: 1%;
 }
 
+
+
 .nav-bar {
-  max-width: 100%;
+  max-width: 100vw;
   background-color: var(--main-theme-color);
   height: 53px;
   position: relative;
@@ -140,6 +156,15 @@ body {
 .banner {
   font-size: 12px;
   color: var(--main-text-color);
+}
+
+.nav-main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.w-80{
+  width: 80%;
 }
 
 .hero-wrapper {
@@ -383,14 +408,27 @@ body {
   display: none;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+
 .nav-bar-row {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .nai-dn {
   display: none;
+}
+
+.cart-container{
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+  padding-right: 1%;
 }
 
 #contact-form {
@@ -445,6 +483,8 @@ body {
 .hamburger-text-wrapper {
   position: absolute;
   top: 25%;
+  left: 0;
+  padding-left: 1%;
 }
 
 .m-l-auto {
@@ -525,14 +565,23 @@ ul {
 
 .nav-container{
   height: 100%;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.cart-container{
+  position: absolute;
 }
 
 
 
 @media screen and (min-width: 768px) {
+
+  .nav-bar-row{
+    position: relative;
+  }
+
+  .cart-container{
+    display: none;
+  }
 
   .newArrivals_header h3{
     font-size: 35px;
